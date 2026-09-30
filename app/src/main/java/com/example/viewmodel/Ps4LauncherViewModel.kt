@@ -83,7 +83,7 @@ class Ps4LauncherViewModel(application: Application) : AndroidViewModel(applicat
         try {
             // Bersihkan data lama yang memuat kata "Winlator" atau "apk" agar bersih seperti aplikasi baru
             val existing = gameRepository.getAllGamesList()
-            if (existing.any { it.platform.contains("Winlator", ignoreCase = true) || it.packageName.contains("winlator", ignoreCase = true) }) {
+            if (existing.any { it.platform?.contains("Winlator", ignoreCase = true) || it.packageName?.contains("winlator", ignoreCase = true) }) {
                 gameRepository.deleteAllGames()
             }
         } catch (e: Exception) {

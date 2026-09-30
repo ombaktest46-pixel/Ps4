@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Deep purple/indigo esports arena background -->
+    <path
+        android:pathData="M0,0h200v200h-200z"
+        android:fillColor="#120A2A" />
+    <path
+        android:pathData="M0,140 L100,80 L200,140 L200,200 L0,200 Z"
+        android:fillColor="#25124D" />
+    <path
+        android:pathData="M30,200 L100,130 L170,200 Z"
+        android:fillColor="#431D80" />
+
+    <!-- MOBA Crest Outer Shield -->
+    <path
+        android:pathData="M100,35 L155,55 L145,120 L100,165 L55,120 L45,55 Z"
+        android:fillColor="#1E143E"
+        android:strokeColor="#FFB300"
+        android:strokeWidth="3.5" />
+
+    <!-- Inner Crest Wings -->
+    <path
+        android:pathData="M100,50 L140,65 L132,110 L100,145 L68,110 L60,65 Z"
+        android:fillColor="#2A1B54" />
+
+    <!-- Golden Crown at Top -->
+    <path
+        android:pathData="M78,65 L88,52 L100,68 L112,52 L122,65 L118,78 L82,78 Z"
+        android:fillColor="#FFD54F" />
+
+    <!-- Crossed Energy Blades -->
+    <path
+        android:pathData="M70,85 L130,135 M130,85 L70,135"
+        android:strokeColor="#4FC3F7"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M70,85 L130,135 M130,85 L70,135"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+    <!-- Center Gem (Ruby / Crystal) -->
+    <path
+        android:pathData="M100,95 L110,110 L100,125 L90,110 Z"
+        android:fillColor="#FF1744" />
+
+    <!-- "MLBB" Banner text silhouette -->
+    <path
+        android:pathData="M65,165 H135 V182 H65 Z"
+        android:fillColor="#FF9800" />
+</vector>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Dark textured metal background -->
+    <path
+        android:pathData="M0,0h200v200h-200z"
+        android:fillColor="#151A22" />
+    <!-- Crimson flame / blood magic background aura -->
+    <path
+        android:pathData="M0,120 Q 100,60 200,120 L200,200 L0,200 Z"
+        android:fillColor="#3D0B12" />
+    <path
+        android:pathData="M50,150 Q 100,100 150,150 L150,200 L50,200 Z"
+        android:fillColor="#681018" />
+
+    <!-- Witcher School of the Wolf Crest (Stylized geometric wolf head) -->
+    <!-- Wolf Ears -->
+    <path
+        android:pathData="M65,45 L85,90 L60,80 Z"
+        android:fillColor="#E0E6ED" />
+    <path
+        android:pathData="M135,45 L140,80 L115,90 Z"
+        android:fillColor="#E0E6ED" />
+    <!-- Wolf Forehead & Crown -->
+    <path
+        android:pathData="M85,90 L100,65 L115,90 L100,105 Z"
+        android:fillColor="#CBD5E1" />
+    <!-- Wolf Cheeks & Muzzle -->
+    <path
+        android:pathData="M60,80 L85,90 L75,125 L55,100 Z"
+        android:fillColor="#94A3B8" />
+    <path
+        android:pathData="M140,80 L145,100 L125,125 L115,90 Z"
+        android:fillColor="#94A3B8" />
+    <!-- Snout & Nose -->
+    <path
+        android:pathData="M75,125 L100,105 L125,125 L100,165 Z"
+        android:fillColor="#F1F5F9" />
+    <!-- Glowing Red Eyes -->
+    <path
+        android:pathData="M80,102 L92,98 L88,106 Z"
+        android:fillColor="#FF2A42" />
+    <path
+        android:pathData="M120,102 L112,98 L116,106 Z"
+        android:fillColor="#FF2A42" />
+    <!-- Steel & Silver Crossed Swords -->
+    <path
+        android:pathData="M35,35 L165,165 M165,35 L35,165"
+        android:strokeColor="#718096"
+        android:strokeWidth="3.5"
+        android:fillColor="#00000000" />
+    <!-- Roman Numeral III -->
+    <path
+        android:pathData="M88,172 H94 V188 H88 M97,172 H103 V188 H97 M106,172 H112 V188 H106"
+        android:strokeColor="#E2E8F0"
+        android:strokeWidth="2"
+        android:fillColor="#00000000" />
+</vector>

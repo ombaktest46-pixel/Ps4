@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PS4 Launcher</string>
+    <string name="personalization_title">Menu Personalisasi: Latar Belakang &amp; Musik</string>
+    <string name="bgm_title">Musik Latar</string>
+    <string name="bgm_subtitle">Pilih Playlist &amp; Suara Latar</string>
+    <string name="bg_menu_title">Latar Belakang Menu</string>
+    <string name="theme_color_title">Warna Tema</string>
+    <string name="start_game">Mainkan</string>
+    <string name="add_game">Tambah Game Baru</string>
+</resources>

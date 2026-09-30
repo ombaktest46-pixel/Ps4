@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Gaming headset / Party icon -->
+    <path
+        android:pathData="M12,3 A9,9 0 0,0 3,12 V18 A3,3 0 0,0 6,21 H7 V15 H5 V12 A7,7 0 0,1 19,12 V15 H17 V21 H18 A3,3 0 0,0 21,18 V12 A9,9 0 0,0 12,3 Z M12,19 A2,2 0 1,1 12,15 A2,2 0 1,1 12,19 Z"
+        android:fillColor="#FFFFFF" />
+</vector>

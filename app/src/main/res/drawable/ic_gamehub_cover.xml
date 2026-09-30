@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Futuristic cyber/hub dark neon background -->
+    <path
+        android:pathData="M0,0h200v200h-200z"
+        android:fillColor="#0D111A" />
+    <path
+        android:pathData="M0,140 L100,90 L200,140 L200,200 L0,200 Z"
+        android:fillColor="#151D2F" />
+
+    <!-- Hexagonal Hub Grid -->
+    <path
+        android:pathData="M100,40 L160,75 L160,145 L100,180 L40,145 L40,75 Z"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.5"
+        android:fillColor="#1A2438" />
+
+    <!-- Game Controller & Multi-System Nexus Nodes -->
+    <path
+        android:pathData="M70,95 C70,88 80,82 100,82 C120,82 130,88 130,95 L125,125 C124,130 118,132 114,128 L108,122 H92 L86,128 C82,132 76,130 75,125 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Central Glowing Core -->
+    <path
+        android:pathData="M100,102 m-6,0 a6,6 0 1 0 12,0 a6,6 0 1 0 -12,0"
+        android:fillColor="#00E5FF" />
+
+    <!-- 4 Orbiting System Orbs (Winlator, Yuzu, AetherSX2, Android) -->
+    <path
+        android:pathData="M40,75 m-5,0 a5,5 0 1 0 10,0 a5,5 0 1 0 -10,0"
+        android:fillColor="#E53935" /> <!-- Winlator Red -->
+    <path
+        android:pathData="M160,75 m-5,0 a5,5 0 1 0 10,0 a5,5 0 1 0 -10,0"
+        android:fillColor="#00E676" /> <!-- Android Green -->
+    <path
+        android:pathData="M160,145 m-5,0 a5,5 0 1 0 10,0 a5,5 0 1 0 -10,0"
+        android:fillColor="#003791" /> <!-- AetherSX2 Blue -->
+    <path
+        android:pathData="M40,145 m-5,0 a5,5 0 1 0 10,0 a5,5 0 1 0 -10,0"
+        android:fillColor="#FFB300" /> <!-- Yuzu Switch Yellow -->
+</vector>

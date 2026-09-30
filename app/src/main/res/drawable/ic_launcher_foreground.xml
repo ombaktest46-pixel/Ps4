@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center group scaled safely within 66dp zone -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Controller Body -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M34,42 C30,42 27,45 26,49 L23,66 C22,71 25,76 30,76 C33,76 36,73 37,69 L41,56 C42,54 44,53 46,53 L62,53 C64,53 66,54 67,56 L71,69 C72,73 75,76 78,76 C83,76 86,71 85,66 L82,49 C81,45 78,42 74,42 L34,42 Z" />
+        <!-- Touchpad / Lightbar -->
+        <path
+            android:fillColor="#00A2FF"
+            android:pathData="M44,43 L64,43 C65,43 65.5,43.5 65.5,44.5 L64.5,48.5 C64.5,49.5 64,50 63,50 L45,50 C44,50 43.5,49.5 43.5,48.5 L42.5,44.5 C42.5,43.5 43,43 44,43 Z" />
+        <!-- D-Pad (Left side) -->
+        <path
+            android:fillColor="#002D72"
+            android:pathData="M33,48 L35,48 L35,50 L37,50 L37,52 L35,52 L35,54 L33,54 L33,52 L31,52 L31,50 L33,50 Z" />
+        <!-- PS Shapes (Right side) -->
+        <!-- Triangle (green) -->
+        <path
+            android:fillColor="#00E676"
+            android:pathData="M73,47 L75,50 L71,50 Z" />
+        <!-- Circle (red) -->
+        <path
+            android:fillColor="#FF5252"
+            android:pathData="M76,52 A1.5,1.5 0 1 0 76,55 A1.5,1.5 0 1 0 76,52 Z" />
+        <!-- Cross (blue) -->
+        <path
+            android:fillColor="#448AFF"
+            android:pathData="M72,55 L74,57 M74,55 L72,57"
+            android:strokeColor="#448AFF"
+            android:strokeWidth="0.8" />
+        <!-- Square (pink) -->
+        <path
+            android:fillColor="#FF4081"
+            android:pathData="M69,51 H71 V53 H69 Z" />
+        <!-- Dual Analog sticks -->
+        <path
+            android:fillColor="#1A237E"
+            android:pathData="M44,59 A3.5,3.5 0 1 0 44,66 A3.5,3.5 0 1 0 44,59 Z" />
+        <path
+            android:fillColor="#1A237E"
+            android:pathData="M64,59 A3.5,3.5 0 1 0 64,66 A3.5,3.5 0 1 0 64,59 Z" />
+    </group>
+</vector>

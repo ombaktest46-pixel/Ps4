@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Deep blue / cosmic gradient background -->
+    <path
+        android:pathData="M0,0h200v200h-200z"
+        android:fillColor="#04122C" />
+    <!-- Dynamic radiating glowing lines -->
+    <path
+        android:pathData="M0,100 Q 100,50 200,100 M0,140 Q 100,80 200,140"
+        android:strokeColor="#1E88E5"
+        android:strokeWidth="2"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M20,180 Q 100,110 180,180"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000" />
+
+    <!-- Central Glowing Ring -->
+    <path
+        android:pathData="M100,100 m-50,0 a50,50 0 1 0 100,0 a50,50 0 1 0 -100,0"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3"
+        android:fillColor="#102A54" />
+
+    <!-- Personalization Art Brush & Gear Silhouette -->
+    <!-- Artist Palette -->
+    <path
+        android:pathData="M80,68 C62,68 50,80 50,98 C50,118 68,135 90,135 C96,135 102,130 102,124 C102,121 100,118 100,115 C100,108 106,102 113,102 H120 C131,102 140,93 140,82 C140,74 114,68 80,68 Z"
+        android:fillColor="#E3F2FD" />
+    <!-- Palette Color Spots -->
+    <path
+        android:pathData="M68,85 m-4,0 a4,4 0 1 0 8,0 a4,4 0 1 0 -8,0"
+        android:fillColor="#FF5252" />
+    <path
+        android:pathData="M84,78 m-4,0 a4,4 0 1 0 8,0 a4,4 0 1 0 -8,0"
+        android:fillColor="#FFD700" />
+    <path
+        android:pathData="M102,82 m-4,0 a4,4 0 1 0 8,0 a4,4 0 1 0 -8,0"
+        android:fillColor="#00E676" />
+    <path
+        android:pathData="M70,105 m-4,0 a4,4 0 1 0 8,0 a4,4 0 1 0 -8,0"
+        android:fillColor="#2979FF" />
+
+    <!-- Glowing Stylus / Paint Brush -->
+    <path
+        android:pathData="M108,138 L142,88 C144,85 148,85 150,87 C152,89 152,93 149,95 L116,144 Z"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M104,142 L112,145 L102,149 Z"
+        android:fillColor="#FFD54F" />
+
+    <!-- Music note accent -->
+    <path
+        android:pathData="M136,120 H146 V135 H136 Z M144,120 V142 A5,5 0 1 1 139,137"
+        android:fillColor="#80D8FF" />
+</vector>

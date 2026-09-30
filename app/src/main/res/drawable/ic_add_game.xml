@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Subtle translucent dark card background -->
+    <path
+        android:pathData="M0,0h200v200h-200z"
+        android:fillColor="#0D1829" />
+
+    <!-- Dashed or corner brackets -->
+    <path
+        android:pathData="M30,50 V30 H50 M150,30 H170 V50 M170,150 V170 H150 M50,170 H30 V150"
+        android:strokeColor="#3A6B9B"
+        android:strokeWidth="3.5"
+        android:fillColor="#00000000" />
+
+    <!-- Center Plus symbol with glow -->
+    <path
+        android:pathData="M100,60 V140 M60,100 H140"
+        android:strokeColor="#00A2FF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M100,60 V140 M60,100 H140"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>

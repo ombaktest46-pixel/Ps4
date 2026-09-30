@@ -80,15 +80,19 @@ class Ps4LauncherViewModel(application: Application) : AndroidViewModel(applicat
     }
 
     private suspend fun seedDatabaseIfEmpty(force: Boolean = false) {
-        try {
+                try {
             // Bersihkan data lama yang memuat kata "Winlator" atau "apk" agar bersih seperti aplikasi baru
             val existing = gameRepository.getAllGamesList()
-            if (existing.any { it.platform?.contains("Winlator", ignoreCase = true) || it.packageName?.contains("winlator", ignoreCase = true) }) {
+            if (existing.any { 
+                (it.platform?.contains("Winlator", ignoreCase = true) ?: false) || 
+                (it.packageName?.contains("winlator", ignoreCase = true) ?: false) 
+            }) {
                 gameRepository.deleteAllGames()
             }
         } catch (e: Exception) {
             Log.e("Ps4LauncherViewModel", "Seed cleanup error: ${e.message}")
-        }
+                }
+    
     }
 
     private suspend fun observeGameLibrary() {

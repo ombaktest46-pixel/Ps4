@@ -3,7 +3,7 @@ name: Build Android APK
 on:
   push:
     branches: [ "main" ]
-  workflow_dispatch: # Menambahkan tombol run manual
+  workflow_dispatch: 
 
 jobs:
   build:
@@ -24,11 +24,11 @@ jobs:
       run: |
         echo '{"project_info":{"project_number":"1","project_id":"dummy"},"client":[{"client_info":{"mobilesdk_app_id":"1:1:android:1","android_client_info":{"package_name":"com.dummy.app"}},"api_key":[{"current_key":"dummy"}]}]}' > app/google-services.json
 
-        - name: Generate Dummy debug.keystore
+    - name: Generate Dummy debug.keystore
       run: |
         rm -f debug.keystore
         keytool -genkey -v -keystore debug.keystore -storetype JKS -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "C=US, O=Android, CN=Android Debug"
-        
+
     - name: Build Debug APK
       run: gradle assembleDebug
 
